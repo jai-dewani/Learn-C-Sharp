@@ -8,6 +8,16 @@ namespace Goose
         public string honk;
         public int power;
 
+        // private member with custom set and get methods 
+        // which can be removed to only allow get or set as required
+        string intentions = "BAD";
+        public string Intentions
+        {
+            get { return intentions; }
+            set { name = value; }
+        }
+
+        // Constructor
         public Goose(string namePass, string honkPass, int powerPass)
         {
             name = namePass;
@@ -15,6 +25,7 @@ namespace Goose
             power = powerPass;
         }
 
+        // Method
         public void HONK()
         {
             Console.WriteLine(name + " is ready to honk");
