@@ -20,6 +20,7 @@ namespace stringStuff
             Console.WriteLine(name.Length);
             Console.WriteLine(name.Substring(4));
             Console.WriteLine(name.Substring(4,5));
+            Console.WriteLine($"Hello {name}");
         }
     }
 }
