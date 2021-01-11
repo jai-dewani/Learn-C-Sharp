@@ -2,10 +2,24 @@
 
 namespace Goose
 {
-    class Goose
+    class Animal
     {
         public string name;
-        public string honk;
+        public string sound;
+
+        public Animal(string name, string sound)
+        {
+            this.name = name;
+            this.sound = sound;
+        }
+
+        public void makeSound()
+        {
+            Console.WriteLine(sound);
+        }
+    }
+    class Goose : Animal
+    {
         public int power;
 
         // private member with custom set and get methods 
@@ -14,25 +28,24 @@ namespace Goose
         public string Intentions
         {
             get { return intentions; }
-            set { name = value; }
+            set { intentions = value; }
         }
 
         // Constructor
-        public Goose(string namePass, string honkPass, int powerPass)
+        public Goose(string namePass, string honkPass, int powerPass): base(namePass, honkPass)
         {
-            name = namePass;
-            honk = honkPass;
-            power = powerPass;
+            this.power = powerPass;
         }
 
         // Method
-        public void HONK()
+        public new void makeSound()
         {
             Console.WriteLine(name + " is ready to honk");
             for (int i = 0; i < power; i++)
             {
-                Console.WriteLine(honk);
+                Console.WriteLine(sound);
             }
+            Console.WriteLine(name + " has " + intentions + " intentions.");
         }
     }
     class Program
@@ -40,7 +53,8 @@ namespace Goose
         static void Main(string[] args)
         {
             Goose one = new Goose("Jai", "HONK!", 5);
-            one.HONK();
+            one.Intentions = "GOOD";
+            one.makeSound();
         }
     }
 }

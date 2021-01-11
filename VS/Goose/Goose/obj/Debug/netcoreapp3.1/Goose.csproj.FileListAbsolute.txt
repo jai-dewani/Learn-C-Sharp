@@ -1,0 +1,13 @@
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\bin\Debug\netcoreapp3.1\Goose.exe
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\bin\Debug\netcoreapp3.1\Goose.deps.json
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\bin\Debug\netcoreapp3.1\Goose.runtimeconfig.json
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\bin\Debug\netcoreapp3.1\Goose.runtimeconfig.dev.json
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\bin\Debug\netcoreapp3.1\Goose.dll
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\bin\Debug\netcoreapp3.1\Goose.pdb
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\obj\Debug\netcoreapp3.1\Goose.csprojAssemblyReference.cache
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\obj\Debug\netcoreapp3.1\Goose.AssemblyInfoInputs.cache
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\obj\Debug\netcoreapp3.1\Goose.AssemblyInfo.cs
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\obj\Debug\netcoreapp3.1\Goose.csproj.CoreCompileInputs.cache
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\obj\Debug\netcoreapp3.1\Goose.dll
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\obj\Debug\netcoreapp3.1\Goose.pdb
+C:\Users\x6jdewan\Desktop\Learn C#\VS\Goose\Goose\obj\Debug\netcoreapp3.1\Goose.genruntimeconfig.cache
